@@ -29,4 +29,12 @@ func main() {
 
 	slice2 := arr2[1:3]
 	fmt.Println(slice2)
+
+	// intern arrays
+	slice3 := make([]int, 5, 10)
+
+	fmt.Println(slice3)
+	
+	fmt.Println(len(slice3)) // array length
+	fmt.Println(cap(slice3)) // array capacity
 }
